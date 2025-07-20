@@ -28,3 +28,19 @@ app.get("/about", (req, res) => {
 app.get("/contact", (req, res) => {
   res.send(`<p>phone number 7983243891</p>`);
 });
+
+app.post("/register", (req, res) => {
+  res.sendStatus(201);
+});
+
+app.put("/user/sho", (req, res) => {
+  res.sendStatus(200);
+});
+
+app.patch("/user/sho", (req, res) => {
+  res.sendStatus(200);
+});
+
+app.delete("/user/sho", (req, res) => {
+  res.sendStatus(200)
+});
